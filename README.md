@@ -9,13 +9,13 @@ This project is designed to showcase my skills in responsive web design, interac
 
 ### 🔹 Project Snapshot
 
-![snapshot of dashboard](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/homepage.png)
+![snapshot of dashboard](https://github.com/Pamminarzary/Online_LMS/blob/main/dashboard.png)
 
-![snapshot of realtime-monitoring](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/Real-time%20Monitoring.png)
+![snapshot of footer-section](https://github.com/Pamminarzary/Online_LMS/blob/main/footer-section.png)
 
-![snapshot of model info](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/model%20info.png))
+![snapshot of landing](https://github.com/Pamminarzary/Online_LMS/blob/main/landing.png)
 
-![snapshot of pipeline](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/pipeline.png)
+![snapshot of landing2](https://github.com/Pamminarzary/Online_LMS/blob/main/landing2.png)
 
 
 ## 🚀 Features
