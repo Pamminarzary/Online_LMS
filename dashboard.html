@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="gradient-bg">
+
+<!-- <header class="nav glass">
+  <h2>Dashboard</h2>
+  <button onclick="toggleTheme()" class="theme-toggle">🌙</button>
+</header> -->
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="assets/images/logo.png" alt="LMS Logo" class="nav-logo">
+    <span class="nav-title"></span>
+  </div>
+
+  <nav class="nav-links">
+    <a href="landing.html">Home</a>
+    <a href="dashboard.html">Courses</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#about">About</a>
+  </nav>
+
+ <div>
+    <a href="signin.html" class="btn">Login</a>
+    <a href="signup.html" class="btn">Sign Up</a>
+
+    <button onclick="toggleTheme()" class="theme-toggle">🌙</button>
+  </div>
+</header>
+
+
+<h4 class="center">Courses</h3>
+
+<div class="search-container">
+  <input 
+    type="text" 
+    id="searchInput" 
+    placeholder="Search courses..."
+    onkeyup="searchCourses()"
+  >
+</div>
+
+<div class="courses">
+  <div class="card glass" data-title="web development">
+    <img src="assets/images/web-dev.png">
+    <h4>Web Development</h4>
+    <p>Build modern, responsive websites using HTML, CSS, and JavaScript.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="web development">
+    <img src="assets/images/ds.png">
+    <h4>Data Science</h4>
+    <p>Master Python, data analysis, and ML fundamentals with real-world placement-focused projects.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="app development">
+    <img src="assets/images/app.png">
+    <h4>App Development</h4>
+    <p>Build modern mobile apps using Flutter and Android fundamentals.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="machine learning">
+    <img src="assets/images/machine-learning.png">
+    <h4>Machine Learning</h4>
+    <p>Learn machine learning fundamentals and build intelligent, data-driven models.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="cyber security">
+    <img src="assets/images/security.png">
+    <h4>Cyber Security</h4>
+    <p>Understand cybersecurity fundamentals, tools, and ethical hacking basics.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="artificial intelligence">
+    <img src="assets/images/ai.png">
+    <h4>Artificial intelligence</h4>
+    <p>Understand AI concepts and build smart applications using real data.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="devops">
+    <img src="assets/images/dev.png">
+    <h4>DevOps</h4>
+    <p>Learn DevOps practices to automate, build, and deploy applications efficiently.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="cloud computing">
+    <img src="assets/images/cloud.png">
+    <h4>Cloud Computing</h4>
+    <p>Learn cloud fundamentals and deploy applications using modern cloud platforms.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="data structures & algorithms">
+    <img src="assets/images/dsa.png">
+    <h4>Data Structures & Algorithms</h4>
+    <p>Master problem-solving skills and crack coding interviews with DSA.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="database management system">
+    <img src="assets/images/dbms.png">
+    <h4>Database Management Systems</h4>
+    <p>Learn database design, SQL queries, and data management fundamentals.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="operating system">
+    <img src="assets/images/os.png">
+    <h4>Operating Systems</h4>
+    <p>Understand process management, memory, scheduling, and system operations.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="computer networks">
+    <img src="assets/images/cn.png">
+    <h4>Computer Networks</h4>
+    <p>Learn networking concepts, protocols, and how data flows over networks.</p>
+    <a href="course.html">View</a>
+  </div>
+
+  <div class="card glass" data-title="blockchain">
+    <img src="assets/images/block.png">
+    <h4>Blockchain</h4>
+<p>Understand decentralized systems and build secure blockchain applications.</p>
+    <a href="course.html">View</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer glass">
+  <div class="footer-container">
+    
+    <div class="footer-col">
+      <h3>LMS</h3>
+      <p>Empowering students with placement-focused learning and industry-ready skills.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <ul>
+        <li>Web Development</li>
+          <li>App Development</li>
+          <li>Machine Learning</li>
+          <li>Cyber Security</li>
+          <li>DevOps</li>
+          <li>Data Science</li>
+          <li>Artificial intelligence</li>
+          <li>Cloud Computing</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Database Management System</li>
+          <li>Operating Systems</li>
+          <li>Computer Networks</li>
+          <li>Blockchain</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="signin.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email: support@lms.com</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 LMS | Built by Pammi Narzary
+  </div>
+</footer>
+
+
+<script src="js/theme.js"></script>
+</body>
+</html>

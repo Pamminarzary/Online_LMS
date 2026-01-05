@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | LMS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="assets/images/logo.png" alt="LMS Logo" class="nav-logo">
+    <span class="nav-title"></span>
+  </div>
+
+  <nav class="nav-links">
+    <a href="landing.html">Home</a>
+    <a href="dashboard.html">Courses</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div>
+    <button onclick="toggleTheme()" class="theme-toggle">🌙</button>
+  </div>
+</header>
+
+<body class="gradient-bg">
+
+  <!-- LOGIN SECTION -->
+  <div class="auth-wrapper">
+    <div class="glass auth-card">
+      <img src="assets/images/logo.png" class="auth-logo" alt="LMS Logo">
+      <h2>Login</h2>
+
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+
+      <button onclick="login()">Login</button>
+
+      <p class="auth-link">
+        New here? <a href="signup.html">Create an account</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer glass">
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3>LMS</h3>
+        <p>Empowering students with placement-focused learning and industry-ready skills.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Courses</h4>
+        <ul>
+          <li>Web Development</li>
+          <li>App Development</li>
+          <li>Machine Learning</li>
+          <li>Cyber Security</li>
+          <li>DevOps</li>
+          <li>Data Science</li>
+          <li>Artificial intelligence</li>
+          <li>Cloud Computing</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Database Management System</li>
+          <li>Operating Systems</li>
+          <li>Computer Networks</li>
+          <li>Blockchain</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="landing.html">Home</a></li>
+          <li><a href="signin.html">Login</a></li>
+          <li><a href="signup.html">Signup</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Email: support@lms.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 LMS | Built by Pammi Narzary
+    </div>
+  </footer>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
