@@ -7,6 +7,17 @@ This project is designed as a placement-ready academic project, focusing on clea
 
 This project is designed to showcase my skills in responsive web design, interactivity using JavaScript/React, and deployment using Netlify. Whether it's a personal portfolio, mini-tool, or full-stack app, this serves as a demonstration of clean UI and practical features.
 
+### 🔹 Project Snapshot
+
+![snapshot of dashboard](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/homepage.png)
+
+![snapshot of realtime-monitoring](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/Real-time%20Monitoring.png)
+
+![snapshot of model info](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/model%20info.png))
+
+![snapshot of pipeline](https://github.com/Pamminarzary/Heartrate-Monitoring-using-rPPG/blob/main/pipeline.png)
+
+
 ## 🚀 Features
 
 🎓 Dynamic Course Pages (single template for all courses)
